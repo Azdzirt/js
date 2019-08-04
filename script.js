@@ -1,15 +1,12 @@
+// 1 задание;
+var a = prompt ("введите число");
+alert (a*a);
 
-a="введите число";
-b=2;
-alert((prompt(a))*(b));
+var age = prompt("Ваш возраст?");
+alert('Вам ' + age + ' лет!')
 
-
-
-var age = "Ваш возраст?";
-alert(prompt(age));
-
-var name = "Ваше имя?";
-alert(prompt(name));
+var name = prompt("Ваше имя?");
+alert('Ваше имя '+ ' ' + name )
 
 var name2 = "Гэндальф это ты???";
 alert(name2);

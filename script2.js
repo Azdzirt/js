@@ -1,3 +1,4 @@
+// 2.2 задание
 var x = prompt ("введите первое однозначное число");
 var y = prompt ("введите  второе однозначное число");
 if (x >=10 || y >= 10) {
@@ -7,30 +8,40 @@ else if (x == y) {
   alert ("эти числа равны!");
 }
 if (x > y) {
-	result=x ;
+	alert("большее число" + " " + x);
 }
-		
-if (x < y) {
-	result=y ;
+else if (x < y){
+	alert("большее число" + " " + y);
 
-}	
-alert("это число больше =>" + " " + result);
+}
 
-    
+// 2.1
+var x_one = prompt ("введите первое однозначное число");
+var y_one = prompt ("введите  второе однозначное число");
+alert(x_one==y_one);
+
+// 2.3  
 var one = prompt ("первая буква");
 var two = prompt ("вторая буква");
 one = one.toLowerCase();
 two = two.toLowerCase();
 if (one < two) {
-	result = two;
+	alert("Буква " + one + " стоит раньше в алфавите" )
 }
-if (one > two) {
-	result = one;
-}
-else if (one == two) {
 
+else if (one == two) {
 	alert("ГЛУПЦЫ!вы ввели одинаковые буквы!");
 }
-alert(result +" "+"-эта буква первее");
+else {
+	alert("жаль, что вы криворучка =(");
+}
+ if(one>0){
+	alert("плз буквами");
+}
+if(two>0){
+	alert("плз буквами");
+}
+
+
 
 
