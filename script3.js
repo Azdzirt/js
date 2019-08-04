@@ -3,7 +3,7 @@ var user = {
     name: prompt("Введите имя"),
     age: prompt("Введите возраст"),
   }
-alert(user);
+alert(user.name+user.age);
 // 3.2.1 for
 var num = [];
 num[0] = prompt("Введите значение");
@@ -41,6 +41,6 @@ while (i < product) {
     alert("Введите цифрами");
     continue; 
   }
-alert(product--);
-  i++;
+    alert(product--);
+    i++;
 }
