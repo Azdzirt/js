@@ -18,3 +18,38 @@
     width: 100px;
     color: rgb(75, 197, 45); 
 }
+
+
+/* экзамен */
+@font-face {
+    font-family: "BebasNeue";
+    src: url("./fonts/BebasNeueRegular.ttf");
+}
+
+.link {
+    margin-right: 6px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Open Sans Condensed;
+    text-decoration: none;
+    color: black;
+} 
+
+.link1 {
+    margin-right: 9px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Open Sans Condensed;
+    text-decoration: none;
+    color: black;
+    margin-left: 42px;
+}
+
+.title {
+    font-family: "BebasNeue";
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+
